@@ -52,3 +52,4 @@ This code performs an analysis of gold price data using various techniques such 
 •	A residual plot is created by plotting the actual price changes against the residuals using plt.scatter(y_test, residuals). <br>
 •	A horizontal line at y=0 is added to the residual plot using plt.axhline(y=0, color='r', linestyle='--'). <br>
 •	Both plots are displayed using plt.show(). <br>
+![download](https://github.com/17wasim/Cybersapient_Assignment/assets/113519749/adff3d44-d02d-4fb5-bbb9-36dfed8980e3)
