@@ -3,8 +3,8 @@
 This code performs an analysis of gold price data using various techniques such as time series decomposition, stationarity testing, differencing, linear regression modeling, and evaluation.
 
 # Required Libraries
- The following libraries are imported to run the code:
-•	pandas for data manipulation and analysis
+ The following libraries are imported to run the code: <br>
+•	pandas for data manipulation and analysis <br>
 •	numpy for numerical computations
 •	matplotlib.pyplot for plotting
 •	statsmodels.tsa.seasonal.seasonal_decompose for time series decomposition
