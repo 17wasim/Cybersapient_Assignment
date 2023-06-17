@@ -36,7 +36,7 @@ This code performs an analysis of gold price data using various techniques such 
 •	Differencing is performed on the closing prices to make the series stationary (df['Differenced_Close'] = df['Close'].diff()). <br>
 •	The augmented Dickey-Fuller test is applied to the differenced series (adf_test(df['Differenced_Close'])). <br>
 
-#Linear Regression Modeling
+# Linear Regression Modeling
 •	Daily price changes are calculated by differencing the closing prices (df['Price_Change'] = df['Close'].diff()). <br>
 •	The first row (NaN) is removed since it has no price change (df = df[1:]). <br>
 •	The data is split into train and test sets using an 80-20 split ratio (train_data, test_data = df[:train_size], df[train_size:]). <br>
