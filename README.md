@@ -3,17 +3,16 @@
 This code performs an analysis of gold price data using various techniques such as time series decomposition, stationarity testing, differencing, linear regression modeling, and evaluation.
 
 # Required Libraries
-The following libraries are imported to run the code:
-
-pandas for data manipulation and analysis
-numpy for numerical computations
-matplotlib.pyplot for plotting
-statsmodels.tsa.seasonal.seasonal_decompose for time series decomposition
-statsmodels.tsa.stattools.adfuller for the augmented Dickey-Fuller test
-statsmodels.graphics.tsaplots.plot_acf and statsmodels.graphics.tsaplots.plot_pacf for autocorrelation and partial autocorrelation plots
-sklearn.model_selection.train_test_split for splitting the data into train and test sets
-sklearn.linear_model.LinearRegression for linear regression modeling
-sklearn.metrics.r2_score for calculating the R-squared score
+ The following libraries are imported to run the code:
+    pandas for data manipulation and analysis
+    numpy for numerical computations
+    matplotlib.pyplot for plotting
+    statsmodels.tsa.seasonal.seasonal_decompose for time series decomposition
+    statsmodels.tsa.stattools.adfuller for the augmented Dickey-Fuller test
+    statsmodels.graphics.tsaplots.plot_acf and statsmodels.graphics.tsaplots.plot_pacf for autocorrelation and partial autocorrelation plots
+    sklearn.model_selection.train_test_split for splitting the data into train and test sets
+    sklearn.linear_model.LinearRegression for linear regression modeling
+    sklearn.metrics.r2_score for calculating the R-squared score
 
 # Loading and Preparing the Data
 The OHLC (Open, High, Low, Close) data is loaded from an Excel file using pd.read_excel.
